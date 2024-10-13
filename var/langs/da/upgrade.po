@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /release-4.18.2/upgrade.po\n"
+"X-Crowdin-File-ID: 8930\n"
+"PO-Revision-Date: 2024-07-02 12:30\n"
+
+msgctxt "Languages::upgrade_notification.google_export.title"
+msgid "Some products no longer have a GTIN specified"
+msgstr ""
+
+msgctxt "Languages::upgrade_notification.google_export.message"
+msgid "When uploading products to Google Merchant Center, CS-Cart no longer uses the CODE product field when the GTIN product feature is empty. This allows you to properly upload products that might not have a GTIN.<br>If you previously relied on the CODE product field to provide GTIN, please specify it <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/import_export/google_merchant.html#step-2-check-and-edit-your-products\">as a product feature</a>. To learn more about GTIN and what products (don't) need it, see <a target=\"_blank\" href=\"https://support.google.com/merchants/answer/6324461?hl=en\">Google Merchant Center Help</a>."
+msgstr ""
+

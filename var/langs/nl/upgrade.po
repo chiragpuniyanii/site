@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /release-4.18.2/upgrade.po\n"
+"X-Crowdin-File-ID: 8930\n"
+"PO-Revision-Date: 2024-07-02 12:30\n"
+
+msgctxt "Languages::upgrade_notification.google_export.title"
+msgid "Some products no longer have a GTIN specified"
+msgstr "Sommige producten hebben niet langer een GTIN gespecificeerd"
+
+msgctxt "Languages::upgrade_notification.google_export.message"
+msgid "When uploading products to Google Merchant Center, CS-Cart no longer uses the CODE product field when the GTIN product feature is empty. This allows you to properly upload products that might not have a GTIN.<br>If you previously relied on the CODE product field to provide GTIN, please specify it <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/import_export/google_merchant.html#step-2-check-and-edit-your-products\">as a product feature</a>. To learn more about GTIN and what products (don't) need it, see <a target=\"_blank\" href=\"https://support.google.com/merchants/answer/6324461?hl=en\">Google Merchant Center Help</a>."
+msgstr "Wanneer je producten upload naar Google Merchant Center, gebruikt CS-Cart niet langer de CODE product veld wanneer de GTIN product functie leeg is. Dit stelt je in staat producten te uploaden naar behoren die geen GTIN kunnen hebben.<br>Als je voorheen vertrouwde op de CODE product veld om de GTIN te verstrekken, specificeer het <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/import_export/google_merchant.html#step-2-check-and-edit-your-products\">als een product functie</a>. Om meer te leren over GTIN en welke producten (het niet) nodig hebben, zie <a target=\"_blank\" href=\"https://support.google.com/merchants/answer/6324461?hl=en\">Google Merchant Center Help</a>."
+

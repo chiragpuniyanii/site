@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.18.2/upgrade.po\n"
+"X-Crowdin-File-ID: 8930\n"
+"PO-Revision-Date: 2024-08-08 11:15\n"
+
+msgctxt "Languages::upgrade_notification.google_export.title"
+msgid "Some products no longer have a GTIN specified"
+msgstr "Для некоторых товаров больше не указан GTIN"
+
+msgctxt "Languages::upgrade_notification.google_export.message"
+msgid "When uploading products to Google Merchant Center, CS-Cart no longer uses the CODE product field when the GTIN product feature is empty. This allows you to properly upload products that might not have a GTIN.<br>If you previously relied on the CODE product field to provide GTIN, please specify it <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/import_export/google_merchant.html#step-2-check-and-edit-your-products\">as a product feature</a>. To learn more about GTIN and what products (don't) need it, see <a target=\"_blank\" href=\"https://support.google.com/merchants/answer/6324461?hl=en\">Google Merchant Center Help</a>."
+msgstr "CS-Cart больше не использует значение из поля КОД у товара при выгрузке в Goolge Merchant Center, даже если у товара не задана соответствующая характеристика. Благодаря этому изменению появилась возможность не передавать GTIN для тех товаров, которым он не нужен.<br>Если вы ранее вводили GTIN в поле КОД, то теперь нужно его задавать <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/import_export/google_merchant.html#step-2-check-and-edit-your-products\">в соответствующей характеристике товара.</a> Подробности о GTIN и каким товарам он (не) нужен есть <a target=\"_blank\" href=\"https://support.google.com/merchants/answer/6324461?hl=en\">в справке Google Merchant Center.</a>"
+
